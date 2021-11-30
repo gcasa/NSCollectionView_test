@@ -7,8 +7,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSCollectionViewDelegate, NSCollectionViewDataSource>
 
+- (IBAction) updateLayout: (id)sender;
 
 @end
 

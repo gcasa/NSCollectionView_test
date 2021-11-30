@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14183FA326F9C0F1007368B2 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14183FA226F9C0F1007368B2 /* Slide.xib */; };
+		14183FA626F9C2A6007368B2 /* SlideCarrierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14183FA526F9C2A6007368B2 /* SlideCarrierView.m */; };
+		14183FA926F9C2EF007368B2 /* SlideImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14183FA826F9C2EF007368B2 /* SlideImageView.m */; };
+		148CE00C2755FA22000B5D0B /* Slide.m in Sources */ = {isa = PBXBuildFile; fileRef = 148CE00B2755FA22000B5D0B /* Slide.m */; };
 		14E415DC26639C2E002AE4EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E415DB26639C2E002AE4EE /* AppDelegate.m */; };
 		14E415DE26639C31002AE4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E415DD26639C31002AE4EE /* Assets.xcassets */; };
 		14E415E126639C31002AE4EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E415DF26639C31002AE4EE /* MainMenu.xib */; };
@@ -14,6 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14183FA226F9C0F1007368B2 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		14183FA426F9C2A6007368B2 /* SlideCarrierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideCarrierView.h; sourceTree = "<group>"; };
+		14183FA526F9C2A6007368B2 /* SlideCarrierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideCarrierView.m; sourceTree = "<group>"; };
+		14183FA726F9C2EF007368B2 /* SlideImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideImageView.h; sourceTree = "<group>"; };
+		14183FA826F9C2EF007368B2 /* SlideImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideImageView.m; sourceTree = "<group>"; };
+		148CE00A2755FA22000B5D0B /* Slide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slide.h; sourceTree = "<group>"; };
+		148CE00B2755FA22000B5D0B /* Slide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slide.m; sourceTree = "<group>"; };
 		14E415D726639C2E002AE4EE /* NSCollectionView_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCollectionView_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E415DA26639C2E002AE4EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14E415DB26639C2E002AE4EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,9 +69,16 @@
 				14E415DB26639C2E002AE4EE /* AppDelegate.m */,
 				14E415DD26639C31002AE4EE /* Assets.xcassets */,
 				14E415DF26639C31002AE4EE /* MainMenu.xib */,
+				14183FA226F9C0F1007368B2 /* Slide.xib */,
 				14E415E226639C31002AE4EE /* Info.plist */,
 				14E415E326639C31002AE4EE /* main.m */,
 				14E415E526639C31002AE4EE /* NSCollectionView_test.entitlements */,
+				14183FA426F9C2A6007368B2 /* SlideCarrierView.h */,
+				14183FA526F9C2A6007368B2 /* SlideCarrierView.m */,
+				14183FA726F9C2EF007368B2 /* SlideImageView.h */,
+				14183FA826F9C2EF007368B2 /* SlideImageView.m */,
+				148CE00A2755FA22000B5D0B /* Slide.h */,
+				148CE00B2755FA22000B5D0B /* Slide.m */,
 			);
 			path = NSCollectionView_test;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			files = (
 				14E415DE26639C31002AE4EE /* Assets.xcassets in Resources */,
 				14E415E126639C31002AE4EE /* MainMenu.xib in Resources */,
+				14183FA326F9C0F1007368B2 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +154,9 @@
 			files = (
 				14E415E426639C31002AE4EE /* main.m in Sources */,
 				14E415DC26639C2E002AE4EE /* AppDelegate.m in Sources */,
+				148CE00C2755FA22000B5D0B /* Slide.m in Sources */,
+				14183FA926F9C2EF007368B2 /* SlideImageView.m in Sources */,
+				14183FA626F9C2A6007368B2 /* SlideCarrierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
